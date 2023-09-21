@@ -93,5 +93,7 @@ for n in range(nt):
 end = time.process_time()
 print(end-start)
 
-plt.plot(x,u)
+plt.plot(x, u)
+plt.ylabel("Velocity")
+plt.xlabel("x-axis")
 plt.show()
